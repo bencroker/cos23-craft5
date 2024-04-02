@@ -1,16 +1,19 @@
 columnSuffix: null
-contentColumnType: string
 handle: instructionSteps
 instructions: 'Add one instructions step per block.'
 name: 'Instruction Steps'
 searchable: false
 settings:
+  createButtonLabel: null
   entryTypes:
     - 2ff70388-58ff-42cc-b63c-8b6a921ff80a
+  includeTableView: false
   maxEntries: null
   minEntries: null
+  pageSize: null
   propagationKeyFormat: null
   propagationMethod: all
+  showCardsInGrid: false
   viewMode: blocks
 translationKeyFormat: null
 translationMethod: site

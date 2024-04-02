@@ -1,4 +1,4 @@
-dateModified: 1712072596
+dateModified: 1712073942
 elementSources:
   craft\elements\Entry:
     -
@@ -164,10 +164,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  oembed:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.1
   redactor:
     edition: standard
     enabled: true
@@ -177,7 +173,7 @@ system:
   live: true
   name: COS23
   retryDuration: null
-  schemaVersion: 4.5.3.0
+  schemaVersion: 5.0.0.20
   timeZone: Europe/Vienna
 users:
   allowPublicRegistration: false
