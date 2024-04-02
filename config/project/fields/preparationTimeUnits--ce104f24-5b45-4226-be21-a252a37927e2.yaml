@@ -1,0 +1,46 @@
+columnSuffix: pjurfwul
+contentColumnType: string(7)
+fieldGroup: 2f80283d-6b98-4fda-8513-85293feafacf # Food
+handle: preparationTimeUnits
+instructions: null
+name: 'Preparation Time Units'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Minutes
+        -
+          - value
+          - minutes
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Hours
+        -
+          - value
+          - hours
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Days
+        -
+          - value
+          - days
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

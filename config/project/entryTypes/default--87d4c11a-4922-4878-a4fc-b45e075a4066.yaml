@@ -1,0 +1,90 @@
+fieldLayouts:
+  013a6d5b-cb96-457b-9e36-985e7a0dad34:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dismissible: false
+            elementCondition: null
+            style: tip
+            tip: 'A trip represents series of countries I’d like to visit.'
+            type: craft\fieldlayoutelements\Tip
+            uid: 17de7a93-8504-4afa-8323-5093ecf70040
+            userCondition: null
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 6481d120-bd0c-4523-a83f-601ff7a43623
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9607b25c-41e6-49ee-92f6-4f598d9bb638 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 883ad9a4-3e2e-4da4-bdb0-cb03bba64c66
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d603abda-1959-4187-a2c1-1b5057ab327b # Countries
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f41b0741-e8cd-41f7-ad1e-06bdd43db253
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4455e8f9-3d20-4764-a87b-5177d121b07e # Summary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5256708c-b416-44ef-9370-6e0979e4e43f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ce6cc63b-457e-4196-b301-26402494461e
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: d6ade80e-232c-4c7e-8d7c-8c8ca98bd05b # Trips
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

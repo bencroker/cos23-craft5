@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>CMS Overview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <h4 class="float-right mr-8 text-sm text-gray-400">
+        &copy;
+        <a href="https://putyourlightson.com/" class="text-blue-800">PutYourLightsOn</a>
+    </h4>
+    <h1 class="mx-8 mt-8 text-xl text-red-600 font-bold">
+        CMS Overview
+    </h1>
+    <ul role="list" class="m-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+        {# Fetch all sections. #}
+        {% set sections = craft.app.entries.allSections %}
+
+        {# Sort sections by ID ascending. #}
+        {% set sections = sections|sort((a, b) => a.id > b.id) %}
+
+        {# @var section \craft\models\Section #}
+        {% for section in sections %}
+            <li class="col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200 {{ section.id <= 2 ? 'bg-gray-100' }}">
+                <div class="w-full flex items-center justify-between p-6 space-x-6">
+                    <div class="flex-1 truncate">
+                        <div class="mb-4 flex items-center space-x-3">
+                            <h3 class="text-gray-900 text-sm font-medium truncate">
+                                {{ section.name }}
+                            </h3>
+                            <span class="flex-shrink-0 inline-block px-2 py-0.5 text-green-800 text-xs font-medium bg-green-100 rounded-full">Section</span>
+                        </div>
+                        {% for entryType in section.entryTypes %}
+                            <div class="my-4 ml-4 flex items-center space-x-3">
+                                <h4 class="text-gray-900 text-sm font-medium truncate">
+                                    {{ entryType.name }}
+                                </h4>
+                                <span class="flex-shrink-0 inline-block px-2 py-0.5 text-blue-800 text-xs font-medium bg-blue-100 rounded-full">Entry Type</span>
+                            </div>
+                            <div class="mb-2 ml-8 flex items-center space-x-3">
+                                <h5 class="text-gray-900 text-sm font-medium truncate">
+                                    Title
+                                </h5>
+                                <span class="flex-shrink-0 inline-block px-2 py-0.5 text-yellow-800 text-xs font-medium bg-yellow-100 rounded-full">Plain Text Field</span>
+                            </div>
+                            {% for field in entryType.customFields %}
+                                <div class="mb-2 ml-8 flex items-center space-x-3">
+                                    <h5 class="text-gray-900 text-sm font-medium truncate">
+                                        {{ field.name }}
+                                    </h5>
+                                    <span class="flex-shrink-0 inline-block px-2 py-0.5 text-yellow-800 text-xs font-medium bg-yellow-100 rounded-full">{{ field.displayName }} Field</span>
+                                </div>
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </li>
+        {% endfor %}
+
+        {# Fetch all category groups. #}
+        {% set categoryGroups = craft.app.categories.allGroups %}
+
+        {# Sort category groups by ID ascending. #}
+        {% set categoryGroups = categoryGroups|sort((a, b) => a.id > b.id) %}
+
+        {# @var categoryGroup \craft\models\CategoryGroup #}
+        {% for categoryGroup in craft.app.categories.allGroups %}
+            <li class="col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200">
+                <div class="w-full flex items-center justify-between p-6 space-x-6">
+                    <div class="flex-1 truncate">
+                        <div class="mb-4 flex items-center space-x-3">
+                            <h3 class="text-gray-900 text-sm font-medium truncate">
+                                {{ categoryGroup.name }}
+                            </h3>
+                            <span class="flex-shrink-0 inline-block px-2 py-0.5 text-red-800 text-xs font-medium bg-red-100 rounded-full">Category Group</span>
+                        </div>
+                        <div class="mb-2 ml-4 flex items-center space-x-3">
+                            <h5 class="text-gray-900 text-sm font-medium truncate">
+                                Title
+                            </h5>
+                            <span class="flex-shrink-0 inline-block px-2 py-0.5 text-yellow-800 text-xs font-medium bg-yellow-100 rounded-full">Plain Text Field</span>
+                        </div>
+                        {% for field in categoryGroup.customFields %}
+                            <div class="mb-2 ml-4 flex items-center space-x-3">
+                                <h5 class="text-gray-900 text-sm font-medium truncate">
+                                    {{ field.name }}
+                                </h5>
+                                <span class="flex-shrink-0 inline-block px-2 py-0.5 text-yellow-800 text-xs font-medium bg-yellow-100 rounded-full">{{ field.displayName }} Field</span>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </li>
+        {% endfor %}
+
+    </ul>
+</body>
+</html>

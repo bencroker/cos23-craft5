@@ -1,0 +1,14 @@
+columnSuffix: wbpwyepw
+contentColumnType: boolean
+fieldGroup: 2f80283d-6b98-4fda-8513-85293feafacf # Food
+handle: suitableForChildren
+instructions: 'Whether this recipe is suitable for preparing with children.'
+name: 'Suitable for Children'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

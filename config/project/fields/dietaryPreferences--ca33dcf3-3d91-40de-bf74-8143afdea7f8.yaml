@@ -1,0 +1,35 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 2f80283d-6b98-4fda-8513-85293feafacf # Food
+handle: dietaryPreferences
+instructions: null
+name: 'Dietary Preferences'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Entry
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\entries\EntryCondition
+  selectionLabel: 'Add a dietary preference'
+  showSiteMenu: true
+  sources:
+    - 'section:4f4c5e55-bdb6-4b11-a80c-a707a67c93c8' # Dietary Preferences
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

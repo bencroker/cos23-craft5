@@ -1,0 +1,20 @@
+columnSuffix: pjqnujfz
+contentColumnType: integer(10)
+fieldGroup: 2f80283d-6b98-4fda-8513-85293feafacf # Food
+handle: numberOfServings
+instructions: 'The number of people this recipe serves.'
+name: 'Number of Servings'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: servings
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

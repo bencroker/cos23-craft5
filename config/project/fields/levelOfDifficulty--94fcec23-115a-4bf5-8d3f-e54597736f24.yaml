@@ -1,0 +1,46 @@
+columnSuffix: yxrtmvkq
+contentColumnType: string(9)
+fieldGroup: 2f80283d-6b98-4fda-8513-85293feafacf # Food
+handle: levelOfDifficulty
+instructions: null
+name: 'Level of Difficulty'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Easy
+        -
+          - value
+          - easy
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Medium
+        -
+          - value
+          - medium
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Difficult
+        -
+          - value
+          - difficult
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

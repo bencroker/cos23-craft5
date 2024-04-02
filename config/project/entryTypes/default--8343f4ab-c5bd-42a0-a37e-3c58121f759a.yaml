@@ -1,0 +1,155 @@
+fieldLayouts:
+  57b61060-1836-4296-81e7-9c1ec8126312:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 32b7d732-cf22-4430-961f-248e20858c93
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9607b25c-41e6-49ee-92f6-4f598d9bb638 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cf0d203a-e81d-4653-8832-1de07656a22c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 15b6744c-b46d-4988-91ba-602d720d8ff4 # Preparation Time
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d78b6f84-552d-4a19-a76e-a8de4c90ef82
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: ce104f24-5b45-4226-be21-a252a37927e2 # Preparation Time Units
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 064ef110-5cb9-4a5a-95d6-9feeff624d33
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 0993baf9-ae54-4148-9bd7-d1e26ab888fc # Number of Servings
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aa401446-0d96-4226-8bce-2cea143af5c6
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 94fcec23-115a-4bf5-8d3f-e54597736f24 # Level of Difficulty
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6a59d4ac-5225-4a8f-a600-3f33f9a736b7
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 4455e8f9-3d20-4764-a87b-5177d121b07e # Summary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 95896741-273b-4938-be6c-b8ba02b1019b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ca33dcf3-3d91-40de-bf74-8143afdea7f8 # Dietary Preferences
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 70938fcf-f748-4ef1-a17e-219e7ea9e026
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f387678b-4bf0-44d0-9c69-1d60c3f3f47f # Recipe Ingredients
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 353f9550-2f13-4d3d-a7d1-b41d27546a1a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d727ec15-9e7c-41dd-b0fd-d03c85fb0716 # Instruction Steps
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a0e21654-a20e-4cf6-9303-630c99a1244b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ca0537d2-feee-4813-a7b3-c8a7b9a94db9
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 2f9cfd47-380e-451a-8887-8e59dfed3d23 # Recipes
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

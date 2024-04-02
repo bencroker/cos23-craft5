@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: cos
+hasUrls: true
+language: en-GB
+name: COS
+primary: true
+siteGroup: 6e92a5b7-6be7-4569-b58a-4e3691f067f8 # COS
+sortOrder: 1

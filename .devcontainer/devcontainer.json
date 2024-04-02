@@ -1,0 +1,4 @@
+{
+  "name": "COS23",
+  "postAttachCommand": "make start"
+}

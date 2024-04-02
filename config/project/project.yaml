@@ -1,0 +1,193 @@
+dateModified: 1705433457
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: Travel
+      type: heading
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: 'section:d6ade80e-232c-4c7e-8d7c-8c8ca98bd05b' # Trips
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: 'section:65e19c67-6869-4b02-8f73-1faddec1820b' # Countries
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: Food
+      type: heading
+    -
+      defaultSort:
+        - title
+        - asc
+      disabled: false
+      key: 'section:2f9cfd47-380e-451a-8887-8e59dfed3d23' # Recipes
+      tableAttributes:
+        - 'field:9607b25c-41e6-49ee-92f6-4f598d9bb638' # Image
+        - 'field:ca33dcf3-3d91-40de-bf74-8143afdea7f8' # Dietary Preferences
+        - 'field:94fcec23-115a-4bf5-8d3f-e54597736f24' # Level of Difficulty
+        - link
+      type: native
+    -
+      defaultSort:
+        - title
+        - asc
+      disabled: false
+      key: 'section:4f4c5e55-bdb6-4b11-a80c-a707a67c93c8' # Dietary Preferences
+      tableAttributes:
+        - 'field:9607b25c-41e6-49ee-92f6-4f598d9bb638' # Image
+        - 'field:4455e8f9-3d20-4764-a87b-5177d121b07e' # Summary
+      type: native
+    -
+      defaultSort:
+        - title
+        - asc
+      disabled: false
+      key: 'section:842cdeba-cd27-4e0b-9de5-60ed051ee6bd' # Ingredients
+      tableAttributes:
+        - 'field:9607b25c-41e6-49ee-92f6-4f598d9bb638' # Image
+        - link
+      type: native
+    -
+      condition:
+        class: craft\elements\conditions\entries\EntryCondition
+        conditionRules:
+          -
+            class: craft\elements\conditions\entries\SectionConditionRule
+            operator: in
+            uid: 123480ac-e337-45d0-896a-d414b7cb93a2
+            values:
+              - 2f9cfd47-380e-451a-8887-8e59dfed3d23 # Recipes
+          -
+            class: craft\fields\conditions\OptionsFieldConditionRule
+            fieldUid: 94fcec23-115a-4bf5-8d3f-e54597736f24 # Level of Difficulty
+            operator: in
+            uid: b0b6e39c-0ed5-4d03-8957-862b5f5ccd81
+            values:
+              - easy
+        elementType: craft\elements\Entry
+        fieldContext: global
+      defaultSort:
+        - title
+        - asc
+      key: 'custom:71ca4f5a-a833-413b-accb-d03fe23c5d4f'
+      label: 'Easy Recipes'
+      tableAttributes:
+        - 'field:9607b25c-41e6-49ee-92f6-4f598d9bb638' # Image
+        - 'field:94fcec23-115a-4bf5-8d3f-e54597736f24' # Level of Difficulty
+      type: custom
+email:
+  fromEmail: info@putyourlightson.com
+  fromName: COS22
+  replyToEmail: null
+  template: null
+  transportSettings:
+    apiKey: $MAILGUN_API_KEY
+    domain: $MAILGUN_DOMAIN
+    endpoint: $MAILGUN_ENDPOINT
+  transportType: craft\mailgun\MailgunAdapter
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: '@webroot/assets/images'
+    type: craft\fs\Local
+    url: '@web/assets/images'
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
+meta:
+  __names__:
+    0ad8c9e9-84c2-4582-91e3-f726d2a16faf: Default # Default
+    1c18b349-157b-4305-9f43-5809f4ebb583: 'Suitable for Children' # Suitable for Children
+    2f9cfd47-380e-451a-8887-8e59dfed3d23: Recipes # Recipes
+    2f80283d-6b98-4fda-8513-85293feafacf: Food # Food
+    2ff70388-58ff-42cc-b63c-8b6a921ff80a: Step # Step
+    3d4b2e47-0965-493b-9a31-4001ab745c12: Common # Common
+    4f4c5e55-bdb6-4b11-a80c-a707a67c93c8: 'Dietary Preferences' # Dietary Preferences
+    5e23629a-bc17-41b0-b9b7-8afe3687d8d4: Images # Images
+    6e92a5b7-6be7-4569-b58a-4e3691f067f8: COS # COS
+    7d0487ea-cc61-4615-bbec-1d35fb6e0129: Default # Default
+    15b6744c-b46d-4988-91ba-602d720d8ff4: 'Preparation Time' # Preparation Time
+    25f0b070-8223-43e7-a9d6-f30e124aefba: Trips # Trips
+    65a39f0b-19b3-4457-b8da-8bd66251a3b9: Default # Default
+    65e19c67-6869-4b02-8f73-1faddec1820b: Countries # Countries
+    85a72c78-c803-474c-84f0-fdc1af1facd0: Unit # Unit
+    87d4c11a-4922-4878-a4fc-b45e075a4066: Default # Default
+    94fcec23-115a-4bf5-8d3f-e54597736f24: 'Level of Difficulty' # Level of Difficulty
+    350d3b36-f9ac-4a5c-9324-598b3fc4d31f: Ingredient # Ingredient
+    842cdeba-cd27-4e0b-9de5-60ed051ee6bd: Ingredients # Ingredients
+    0993baf9-ae54-4148-9bd7-d1e26ab888fc: 'Number of Servings' # Number of Servings
+    3831c4c6-1e3f-42ff-99f7-5e4eed6b7ae3: Ingredient # Ingredient
+    4455e8f9-3d20-4764-a87b-5177d121b07e: Summary # Summary
+    8343f4ab-c5bd-42a0-a37e-3c58121f759a: Default # Default
+    9607b25c-41e6-49ee-92f6-4f598d9bb638: Image # Image
+    055364d9-1405-4285-b2ea-2c1258fb8586: 'Language To Learn' # Language To Learn
+    658815bf-b62b-4167-b965-8343a311b9f3: COS # COS
+    7210974a-b52d-4727-9ff5-3bb9053bd3a5: Simple # Simple
+    c468e7d7-2de4-4f6e-9a17-a3f6b7db6201: Amount # Amount
+    ca33dcf3-3d91-40de-bf74-8143afdea7f8: 'Dietary Preferences' # Dietary Preferences
+    cdaa4293-0023-43e6-8f68-4f42d5f502b3: 'Instruction Text' # Instruction Text
+    ce104f24-5b45-4226-be21-a252a37927e2: 'Preparation Time Units' # Preparation Time Units
+    d6ade80e-232c-4c7e-8d7c-8c8ca98bd05b: Trips # Trips
+    d603abda-1959-4187-a2c1-1b5057ab327b: Countries # Countries
+    d727ec15-9e7c-41dd-b0fd-d03c85fb0716: 'Instruction Steps' # Instruction Steps
+    d2718b8a-1bf7-4c78-8ed1-bd2d973a6e61: Optional # Optional
+    f387678b-4bf0-44d0-9c69-1d60c3f3f47f: 'Recipe Ingredients' # Recipe Ingredients
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  dashboard-begone:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  mailgun:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: COS23
+  retryDuration: null
+  schemaVersion: 4.5.3.0
+  timeZone: Europe/Vienna
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: ingredients
+name: Ingredients
+propagationMethod: all
+siteSettings:
+  658815bf-b62b-4167-b965-8343a311b9f3: # COS
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel

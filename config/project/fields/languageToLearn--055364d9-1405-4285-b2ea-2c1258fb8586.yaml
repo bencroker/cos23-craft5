@@ -1,0 +1,19 @@
+columnSuffix: zawcgefj
+contentColumnType: text
+fieldGroup: 25f0b070-8223-43e7-a9d6-f30e124aefba # Trips
+handle: languageToLearn
+instructions: 'Speaking a few words in the local language is part of the experience!'
+name: 'Language To Learn'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

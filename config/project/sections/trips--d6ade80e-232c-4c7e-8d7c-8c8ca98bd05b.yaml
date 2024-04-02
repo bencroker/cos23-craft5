@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: trips
+name: Trips
+propagationMethod: all
+siteSettings:
+  658815bf-b62b-4167-b965-8343a311b9f3: # COS
+    enabledByDefault: true
+    hasUrls: true
+    template: trip.twig
+    uriFormat: 'trips/{slug}'
+type: channel
