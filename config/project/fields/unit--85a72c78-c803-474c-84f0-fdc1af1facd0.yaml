@@ -1,20 +1,18 @@
-columnSuffix: yxrtmvkq
-contentColumnType: string(9)
-handle: levelOfDifficulty
+columnSuffix: avvrcadt
+handle: unit
 instructions: null
-name: 'Level of Difficulty'
+name: 'Recipe Ingredients - Ingredient - Unit'
 searchable: false
 settings:
-  columnType: null
   options:
     -
       __assoc__:
         -
           - label
-          - Easy
+          - Single
         -
           - value
-          - easy
+          - single
         -
           - default
           - ''
@@ -22,21 +20,32 @@ settings:
       __assoc__:
         -
           - label
-          - Medium
+          - Grams
         -
           - value
-          - medium
+          - grams
         -
           - default
-          - '1'
+          - ''
     -
       __assoc__:
         -
           - label
-          - Difficult
+          - Tablespoons
         -
           - value
-          - difficult
+          - tablespoons
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Teaspoons
+        -
+          - value
+          - teaspoons
         -
           - default
           - ''

@@ -142,10 +142,9 @@ fieldLayouts:
         name: Content
         uid: ca0537d2-feee-4813-a7b3-c8a7b9a94db9
         userCondition: null
-handle: default
+handle: recipes_default
 hasTitleField: true
-name: Default
-section: 2f9cfd47-380e-451a-8887-8e59dfed3d23 # Recipes
+name: 'Recipes - Default'
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

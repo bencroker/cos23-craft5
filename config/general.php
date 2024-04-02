@@ -44,5 +44,6 @@ return GeneralConfig::create()
     // Disallow robots
     ->disallowRobots(App::env('DISALLOW_ROBOTS') ?? false)
     // Dev settings
+    ->enableGql(false)
     ->requireMatchingUserAgentForSession(false)
     ->rememberedUserSessionDuration('P1Y');

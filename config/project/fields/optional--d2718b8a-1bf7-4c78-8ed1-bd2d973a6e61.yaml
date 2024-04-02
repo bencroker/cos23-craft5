@@ -1,0 +1,12 @@
+columnSuffix: apfpjfko
+handle: optional
+instructions: 'Whether this is an optional ingredient in the recipe.'
+name: 'Recipe Ingredients - Ingredient - Optional'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

@@ -1,9 +1,17 @@
 fieldLayouts:
-  85693f11-7ff0-4592-af59-550353e07dc5:
+  013a6d5b-cb96-457b-9e36-985e7a0dad34:
     tabs:
       -
         elementCondition: null
         elements:
+          -
+            dismissible: false
+            elementCondition: null
+            style: tip
+            tip: 'A trip represents series of countries I’d like to visit.'
+            type: craft\fieldlayoutelements\Tip
+            uid: 17de7a93-8504-4afa-8323-5093ecf70040
+            userCondition: null
           -
             autocapitalize: true
             autocomplete: false
@@ -27,7 +35,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 0dea6460-8e88-4f92-bfcd-c47dbded964e
+            uid: 6481d120-bd0c-4523-a83f-601ff7a43623
             userCondition: null
             warning: null
             width: 100
@@ -35,11 +43,23 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 9607b25c-41e6-49ee-92f6-4f598d9bb638 # Image
             instructions: null
-            label: Icon
+            label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 7ed4b740-164d-438a-a1dc-3943ce2a3161
+            uid: 883ad9a4-3e2e-4da4-bdb0-cb03bba64c66
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d603abda-1959-4187-a2c1-1b5057ab327b # Countries
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f41b0741-e8cd-41f7-ad1e-06bdd43db253
             userCondition: null
             warning: null
             width: 100
@@ -47,21 +67,20 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 4455e8f9-3d20-4764-a87b-5177d121b07e # Summary
             instructions: null
-            label: Description
+            label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: efa13d8e-1daa-4762-9330-fb054c554447
+            uid: 5256708c-b416-44ef-9370-6e0979e4e43f
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 3fc59463-95a7-4791-9a31-a49c404793cf
+        uid: ce6cc63b-457e-4196-b301-26402494461e
         userCondition: null
-handle: default
+handle: trips_default
 hasTitleField: true
-name: Default
-section: 4f4c5e55-bdb6-4b11-a80c-a707a67c93c8 # Dietary Preferences
+name: 'Trips - Default'
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

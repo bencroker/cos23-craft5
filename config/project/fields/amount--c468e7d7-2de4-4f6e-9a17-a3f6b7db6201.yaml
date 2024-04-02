@@ -1,8 +1,7 @@
-columnSuffix: brpygnsi
-contentColumnType: integer(10)
-handle: preparationTime
+columnSuffix: agrmetjb
+handle: amount
 instructions: null
-name: 'Preparation Time'
+name: 'Recipe Ingredients - Ingredient - Amount'
 searchable: false
 settings:
   decimals: 0

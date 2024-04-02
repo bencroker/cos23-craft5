@@ -1,5 +1,5 @@
 fieldLayouts:
-  2d1c6228-938f-4073-a68f-ab5bde31672a:
+  85693f11-7ff0-4592-af59-550353e07dc5:
     tabs:
       -
         elementCondition: null
@@ -12,6 +12,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -26,29 +27,40 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 15ce498b-c14b-4a26-9df2-84f0fb959c81
+            uid: 0dea6460-8e88-4f92-bfcd-c47dbded964e
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 055364d9-1405-4285-b2ea-2c1258fb8586 # Language To Learn
+            fieldUid: 9607b25c-41e6-49ee-92f6-4f598d9bb638 # Image
             instructions: null
-            label: null
+            label: Icon
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 61d0e030-454e-45da-b305-c47d1d8acbc0
+            uid: 7ed4b740-164d-438a-a1dc-3943ce2a3161
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4455e8f9-3d20-4764-a87b-5177d121b07e # Summary
+            instructions: null
+            label: Description
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: efa13d8e-1daa-4762-9330-fb054c554447
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 0b87a8ec-712a-4125-b497-e0f93b7c3cb9
+        uid: 3fc59463-95a7-4791-9a31-a49c404793cf
         userCondition: null
-handle: default
+handle: dietaryPreferences_default
 hasTitleField: true
-name: Default
-section: 65e19c67-6869-4b02-8f73-1faddec1820b # Countries
+name: 'Dietary Preferences - Default'
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

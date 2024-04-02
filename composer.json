@@ -1,10 +1,11 @@
 {
   "require": {
-    "craftcms/ckeditor": "^3.6",
-    "craftcms/cms": "4.6.0",
-    "craftcms/mailgun": "^3.0",
-    "putyourlightson/craft-dashboard-begone": "^2.0",
-    "vlucas/phpdotenv": "^5.4"
+    "craftcms/ckeditor": "^4.0",
+    "craftcms/cms": "^5.0",
+    "craftcms/mailgun": "^3.1",
+    "putyourlightson/craft-dashboard-begone": "^3.0",
+    "vlucas/phpdotenv": "^5.4",
+    "wrav/oembed": "^3.0.8"
   },
   "require-dev": {
     "nystudio107/craft-autocomplete": "^1.11.0"

@@ -1,16 +1,17 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: 2f80283d-6b98-4fda-8513-85293feafacf # Food
 handle: instructionSteps
 instructions: 'Add one instructions step per block.'
 name: 'Instruction Steps'
 searchable: false
 settings:
-  contentTable: '{{%matrixcontent_instructionsteps}}'
-  maxBlocks: null
-  minBlocks: null
+  entryTypes:
+    - 2ff70388-58ff-42cc-b63c-8b6a921ff80a
+  maxEntries: null
+  minEntries: null
   propagationKeyFormat: null
   propagationMethod: all
+  viewMode: blocks
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

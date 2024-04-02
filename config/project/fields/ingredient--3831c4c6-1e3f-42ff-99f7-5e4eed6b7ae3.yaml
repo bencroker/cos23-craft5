@@ -1,20 +1,20 @@
 columnSuffix: null
-contentColumnType: string
-handle: countries
+handle: ingredient
 instructions: null
-name: Countries
+name: 'Recipe Ingredients - Ingredient - Ingredient'
 searchable: false
 settings:
   allowSelfRelations: false
   branchLimit: null
   localizeRelations: false
   maintainHierarchy: false
-  maxRelations: null
-  minRelations: null
-  selectionLabel: 'Add a country'
-  showSiteMenu: false
+  maxRelations: 1
+  minRelations: 1
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: true
   sources:
-    - 'section:65e19c67-6869-4b02-8f73-1faddec1820b' # Countries
+    - 'section:842cdeba-cd27-4e0b-9de5-60ed051ee6bd' # Ingredients
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

@@ -1,7 +1,19 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - 87d4c11a-4922-4878-a4fc-b45e075a4066 # Trips - Default
 handle: trips
+maxAuthors: 1
 name: Trips
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
   658815bf-b62b-4167-b965-8343a311b9f3: # COS

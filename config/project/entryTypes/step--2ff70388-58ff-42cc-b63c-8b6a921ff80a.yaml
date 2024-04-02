@@ -1,0 +1,36 @@
+color: null
+fieldLayouts:
+  4872b36a-47a3-49b0-b73f-444d2adb799a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: cdaa4293-0023-43e6-8f68-4f42d5f502b3
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: 'Instruction Text'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b7c9a73b-103c-4809-9bf3-e07255f9cb01
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d1d47324-0ecc-48a3-bb71-aa3d4660b937
+        userCondition: null
+handle: step
+hasTitleField: false
+icon: null
+name: Step
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
