@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 8343f4ab-c5bd-42a0-a37e-3c58121f759a # Recipes - Default
+  - 8343f4ab-c5bd-42a0-a37e-3c58121f759a # Recipes
 handle: recipes
 maxAuthors: 1
 name: Recipes

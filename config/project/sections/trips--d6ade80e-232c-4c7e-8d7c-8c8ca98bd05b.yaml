@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 87d4c11a-4922-4878-a4fc-b45e075a4066 # Trips - Default
+  - 87d4c11a-4922-4878-a4fc-b45e075a4066 # Trips
 handle: trips
 maxAuthors: 1
 name: Trips

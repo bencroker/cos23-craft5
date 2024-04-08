@@ -1,8 +1,9 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 0ad8c9e9-84c2-4582-91e3-f726d2a16faf # Default
+  - 0ad8c9e9-84c2-4582-91e3-f726d2a16faf # Ingredients
 handle: ingredients
+maxAuthors: 1
 name: Ingredients
 propagationMethod: all
 siteSettings:

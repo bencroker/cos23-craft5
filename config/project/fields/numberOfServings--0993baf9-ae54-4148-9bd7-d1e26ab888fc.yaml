@@ -1,5 +1,4 @@
 columnSuffix: pjqnujfz
-contentColumnType: integer(10)
 handle: numberOfServings
 instructions: 'The number of people this recipe serves.'
 name: 'Number of Servings'

@@ -1,5 +1,4 @@
 columnSuffix: wbpwyepw
-contentColumnType: boolean
 handle: suitableForChildren
 instructions: 'Whether this recipe is suitable for preparing with children.'
 name: 'Suitable for Children'

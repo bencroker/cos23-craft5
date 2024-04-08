@@ -1,3 +1,4 @@
+color: null
 fieldLayouts:
   57b61060-1836-4296-81e7-9c1ec8126312:
     tabs:
@@ -12,6 +13,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -20,6 +22,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -34,8 +37,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 9607b25c-41e6-49ee-92f6-4f598d9bb638 # Image
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -46,8 +52,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 15b6744c-b46d-4988-91ba-602d720d8ff4 # Preparation Time
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -58,8 +67,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: ce104f24-5b45-4226-be21-a252a37927e2 # Preparation Time Units
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -70,8 +82,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 0993baf9-ae54-4148-9bd7-d1e26ab888fc # Number of Servings
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -82,8 +97,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 94fcec23-115a-4bf5-8d3f-e54597736f24 # Level of Difficulty
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -94,8 +112,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 4455e8f9-3d20-4764-a87b-5177d121b07e # Summary
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -106,8 +127,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: ca33dcf3-3d91-40de-bf74-8143afdea7f8 # Dietary Preferences
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -118,8 +142,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: f387678b-4bf0-44d0-9c69-1d60c3f3f47f # Recipe Ingredients
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -130,8 +157,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: d727ec15-9e7c-41dd-b0fd-d03c85fb0716 # Instruction Steps
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -142,13 +172,14 @@ fieldLayouts:
         name: Content
         uid: ca0537d2-feee-4813-a7b3-c8a7b9a94db9
         userCondition: null
-handle: recipes_default
+handle: recipes
 hasTitleField: true
-name: 'Recipes - Default'
+icon: null
+name: Recipes
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

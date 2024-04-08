@@ -1,5 +1,4 @@
 columnSuffix: null
-contentColumnType: string
 handle: countries
 instructions: null
 name: Countries
@@ -12,6 +11,7 @@ settings:
   maxRelations: null
   minRelations: null
   selectionLabel: 'Add a country'
+  showCardsInGrid: false
   showSiteMenu: false
   sources:
     - 'section:65e19c67-6869-4b02-8f73-1faddec1820b' # Countries

@@ -1,5 +1,4 @@
 columnSuffix: zawcgefj
-contentColumnType: text
 handle: languageToLearn
 instructions: 'Speaking a few words in the local language is part of the experience!'
 name: 'Language To Learn'
@@ -8,7 +7,6 @@ settings:
   byteLimit: null
   charLimit: null
   code: false
-  columnType: null
   initialRows: 4
   multiline: false
   placeholder: null

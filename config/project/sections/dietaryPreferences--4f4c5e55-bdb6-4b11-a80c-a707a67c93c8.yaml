@@ -1,8 +1,9 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 7d0487ea-cc61-4615-bbec-1d35fb6e0129 # Dietary Preferences - Default
+  - 7d0487ea-cc61-4615-bbec-1d35fb6e0129 # Dietary Preferences
 handle: dietaryPreferences
+maxAuthors: 1
 name: 'Dietary Preferences'
 propagationMethod: all
 siteSettings:

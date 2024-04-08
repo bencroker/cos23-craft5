@@ -1,16 +1,19 @@
 columnSuffix: null
-contentColumnType: string
 handle: recipeIngredients
 instructions: null
 name: 'Recipe Ingredients'
 searchable: false
 settings:
+  createButtonLabel: null
   entryTypes:
-    - 350d3b36-f9ac-4a5c-9324-598b3fc4d31f
+    - 350d3b36-f9ac-4a5c-9324-598b3fc4d31f # Ingredient
+  includeTableView: false
   maxEntries: null
   minEntries: null
+  pageSize: null
   propagationKeyFormat: null
   propagationMethod: all
+  showCardsInGrid: true
   viewMode: blocks
 translationKeyFormat: null
 translationMethod: site

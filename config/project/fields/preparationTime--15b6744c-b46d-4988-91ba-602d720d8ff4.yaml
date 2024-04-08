@@ -1,5 +1,4 @@
 columnSuffix: brpygnsi
-contentColumnType: integer(10)
 handle: preparationTime
 instructions: null
 name: 'Preparation Time'

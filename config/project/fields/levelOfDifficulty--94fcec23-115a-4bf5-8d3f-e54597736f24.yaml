@@ -1,11 +1,9 @@
 columnSuffix: yxrtmvkq
-contentColumnType: string(9)
 handle: levelOfDifficulty
 instructions: null
 name: 'Level of Difficulty'
 searchable: false
 settings:
-  columnType: null
   options:
     -
       __assoc__:

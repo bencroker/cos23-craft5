@@ -1,5 +1,4 @@
 columnSuffix: qsbpsoen
-contentColumnType: text
 handle: summary
 instructions: null
 name: Summary
@@ -8,7 +7,7 @@ settings:
   availableTransforms: ''
   availableVolumes: '*'
   ckeConfig: 7210974a-b52d-4727-9ff5-3bb9053bd3a5 # Simple
-  columnType: text
+  createButtonLabel: null
   defaultTransform: null
   enableSourceEditingForNonAdmins: false
   purifierConfig: null

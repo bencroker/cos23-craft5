@@ -1,8 +1,9 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 65a39f0b-19b3-4457-b8da-8bd66251a3b9 # Countries - Default
+  - 65a39f0b-19b3-4457-b8da-8bd66251a3b9 # Countries
 handle: countries
+maxAuthors: 1
 name: Countries
 propagationMethod: all
 siteSettings:

@@ -1,11 +1,9 @@
 columnSuffix: pjurfwul
-contentColumnType: string(7)
 handle: preparationTimeUnits
 instructions: null
 name: 'Preparation Time Units'
 searchable: false
 settings:
-  columnType: null
   options:
     -
       __assoc__:

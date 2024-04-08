@@ -6,6 +6,35 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 77b98cb2-829c-415e-9810-197920b0fd90
+            userCondition: null
+            warning: null
+            width: 100
+          -
             elementCondition: null
             fieldUid: c468e7d7-2de4-4f6e-9a17-a3f6b7db6201
             handle: null
@@ -24,7 +53,7 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 85a72c78-c803-474c-84f0-fdc1af1facd0
             handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: Unit
             providesThumbs: false
@@ -39,7 +68,7 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 3831c4c6-1e3f-42ff-99f7-5e4eed6b7ae3
             handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: Ingredient
             providesThumbs: false
@@ -54,7 +83,7 @@ fieldLayouts:
             elementCondition: null
             fieldUid: d2718b8a-1bf7-4c78-8ed1-bd2d973a6e61
             handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: Optional
             providesThumbs: false
