@@ -1,4 +1,4 @@
-# COS23
+# COS23 – Craft CMS 5
 
 ## Using this project in a browser via GitHub Codespaces
 
