@@ -330,11 +330,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.0.2",
+            "version": "5.0.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/b343f03dd8ab6061908ff21a2451223902b8d33c",
-                "reference": "b343f03dd8ab6061908ff21a2451223902b8d33c",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/fee50a394b60c4f54b728ae29f94e8fa7bebf8b1",
+                "reference": "fee50a394b60c4f54b728ae29f94e8fa7bebf8b1",
                 "shasum": ""
             },
             "require": {
@@ -431,7 +431,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2024-04-05T13:41:32+00:00"
+            "time": "2024-04-09T22:40:23+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -1326,7 +1326,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v10.48.4",
+            "version": "v10.48.5",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/collections/zipball/f9589f1063a449111dcaa1d68285b507d9483a95",
@@ -1371,7 +1371,7 @@
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v10.48.4",
+            "version": "v10.48.5",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/conditionable/zipball/d0958e4741fc9d6f516a552060fd1b829a85e009",
@@ -1407,7 +1407,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v10.48.4",
+            "version": "v10.48.5",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/contracts/zipball/8d7152c4a1f5d9cf7da3e8b71f23e4556f6138ac",
@@ -1445,7 +1445,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v10.48.4",
+            "version": "v10.48.5",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/macroable/zipball/dff667a46ac37b634dcf68909d9d41e94dc97c27",
@@ -4904,11 +4904,6 @@
         {
             "name": "web-auth/metadata-service",
             "version": "4.8.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/web-auth/webauthn-metadata-service.git",
-                "reference": "fb7c1f107639285fab90f870aab38360252c82f5"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/web-auth/webauthn-metadata-service/zipball/fb7c1f107639285fab90f870aab38360252c82f5",
@@ -4949,7 +4944,6 @@
                     "Webauthn\\MetadataService\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4970,29 +4964,11 @@
                 "fido",
                 "webauthn"
             ],
-            "support": {
-                "source": "https://github.com/web-auth/webauthn-metadata-service/tree/4.8.5"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/Spomky",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/FlorentMorselli",
-                    "type": "patreon"
-                }
-            ],
             "time": "2024-03-13T07:16:02+00:00"
         },
         {
             "name": "web-auth/webauthn-lib",
             "version": "4.8.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/web-auth/webauthn-lib.git",
-                "reference": "925873eb504a1db8a77dc2b4d2b578334736fa16"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/web-auth/webauthn-lib/zipball/925873eb504a1db8a77dc2b4d2b578334736fa16",
@@ -5012,7 +4988,7 @@
                 "spomky-labs/cbor-php": "^3.0",
                 "symfony/uid": "^6.1|^7.0",
                 "web-auth/cose-lib": "^4.2.3",
-                "web-auth/metadata-service": "self.version"
+                "web-auth/metadata-service": "4.8.5"
             },
             "suggest": {
                 "phpdocumentor/reflection-docblock": "As of 4.5.x, the phpdocumentor/reflection-docblock component will become mandatory for converting objects such as the Metadata Statement",
@@ -5035,7 +5011,6 @@
                     "Webauthn\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -5055,19 +5030,6 @@
                 "FIDO2",
                 "fido",
                 "webauthn"
-            ],
-            "support": {
-                "source": "https://github.com/web-auth/webauthn-lib/tree/4.8.5"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/Spomky",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/FlorentMorselli",
-                    "type": "patreon"
-                }
             ],
             "time": "2024-04-08T10:04:23+00:00"
         },

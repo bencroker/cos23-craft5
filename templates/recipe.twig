@@ -14,7 +14,11 @@
         </time>
     </header>
     <div class="mt-8 prose dark:prose-invert">
-        Makes {{ entry.numberOfServings }} servings.
+        {{ 'Preparation time'|t }}:
+        {{ entry.preparationTime }} {{ entry.preparationTimeUnits|t }}
+        <br>
+        {{ 'Level of difficulty'|t }}:
+        {{ entry.levelOfDifficulty|t }}
 
         <div>{{ entry.summary }}</div>
     </div>
